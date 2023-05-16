@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: -35px;
+}
+.text2{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.container1{
+    height: 52px;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 790px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+}
+.box1{
+    animation-name: box1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.9s;
+    position: absolute;
+    display: flex;
+   
+}
+@keyframes box1{
+    0%{
+        background-color: blue;
+        width: 100px;
+        height: 50px;
+        
+    }
+    30%{
+        background-color: blue;
+        width: 200px;
+        height: 50px;
+    }
+    60%{
+        background-color: blue;
+        width: 300px;
+        height: 50px;
+    }
+    100%{
+        background-color: blue;
+        width: 100px;
+        height: 50px;
+    }
+}
+.container2{
+    height: 50px;
+    width: 350px;
+    border: 1px solid black;
+    margin-left: 790px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+}
+.box2{
+    animation-name: box2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes box2{
+    0%{
+        background-color: blue;
+        width: 100px;
+    }
+    30%{
+        background-color: blue;
+        width: 200px;
+    }
+    60%{
+        background-color: blue;
+        width: 300px;
+    }
+    100%{
+        background-color: blue;
+        width: 100px;
+
+    }
+}

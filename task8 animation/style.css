@@ -1,0 +1,23 @@
+div{
+    background-color: rgb(28, 28, 197);
+    width: 350px;
+    height: 350px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: rgb(211, 223, 219);
+    padding: 10px;
+    
+}
+div:hover{
+    animation-name: box;
+    background-color: rgb(104, 104, 170);
+    width: 350px;
+    height: 350px;
+    color: rgb(24, 23, 23);
+    border: radius 0px;    
+    cursor: pointer;
+}
+

@@ -1,0 +1,68 @@
+BODY{
+    background-color: rgb(209, 150, 40);
+}
+header{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 60px;
+}
+.container{
+    margin: auto;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    
+}
+.box1{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(37, 117, 141);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+    transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.box2{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(37, 117, 141);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+    transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.box3{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(37, 117, 141);
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+.box1:hover{
+    transform: rotateX(360deg);
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+}
+.box2:hover{
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+}
+.box3:hover{
+    transform: rotate(120deg);
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+}

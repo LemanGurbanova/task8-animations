@@ -1,0 +1,37 @@
+h2{
+    color: green;
+}
+.ol{
+    color: green;
+}
+span{
+    color: black;
+}
+ol li::marker{
+    animation-duration:0.3s;
+    animation-name: ol;
+    animation-fill-mode: forwards;
+}
+ol li:nth-child(1)::marker{
+    animation-delay: 0;
+}
+ol li:nth-child(2)::marker{
+    animation-delay: 0.3s;
+}
+ol li:nth-child(3)::marker{
+    animation-delay: 0.6s;
+}
+ol li:nth-child(4)::marker{
+    animation-delay: 0.9s;
+}
+ol li:nth-child(5)::marker{
+    animation-delay: 1.2s;
+}
+@keyframes ol{
+    from{
+        font-size: 18px;
+    }
+    to{
+        font-size: 40px;
+    }
+}

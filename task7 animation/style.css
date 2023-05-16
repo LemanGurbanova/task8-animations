@@ -1,0 +1,51 @@
+h2{
+    color: green;
+}
+div{
+    text-align: center;
+    padding-top: 15px;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    transform: skewX(-10deg);
+    margin-left: 20px;
+
+}
+div:hover{
+    border-color: green;
+    color: green;
+    animation-name: box;
+    animation-duration: 0.4s;
+}
+@keyframes box{
+    0%{ transform: skew(-10deg); -webkit-transform: skew(-10deg); -moz-transform: skew(-10deg); -ms-transform: skew(-10deg); -o-transform: skew(-10deg); animation-delay: 0;
+}
+    25%{
+        transform:skew(0);
+        -webkit-transform:skew(0);
+        -moz-transform:skew(0);
+        -ms-transform:skew(0);
+        -o-transform:skew(0);
+        animation-delay: 0.1s;
+        -webkit-transform:skew(0);
+}
+50%{ transform: skew(-10deg); -webkit-transform: skew(-10deg); -moz-transform: skew(-10deg); -ms-transform: skew(-10deg); -o-transform: skew(-10deg); animation-delay: 0.2s;
+}
+70%{
+    transform: skew(0);
+    -webkit-transform: skew(0);
+    -moz-transform: skew(0);
+    -ms-transform: skew(0);
+    -o-transform: skew(0);
+    animation-delay: 0.3s;
+}
+100%{
+    transform:skew(-10deg);
+    -webkit-transform:skew(-10deg);
+    -moz-transform:skew(-10deg);
+    -ms-transform:skew(-10deg);
+    -o-transform:skew(-10deg);
+    animation-delay: 0.4s;
+}
+}

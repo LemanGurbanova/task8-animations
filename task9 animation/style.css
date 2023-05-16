@@ -1,0 +1,75 @@
+header{
+    text-align: center;
+    color: green;
+}
+main{
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    color: green;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+}
+.box{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+@keyframes box{
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+.box2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    animation-name: box2;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 0.7s;
+}
+@keyframes box2{
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+.box3{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    animation-name: box3;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+    animation-delay: 1.4s;
+}
+@keyframes box3{
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+}
+

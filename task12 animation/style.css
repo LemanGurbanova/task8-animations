@@ -1,0 +1,41 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 1px solid;
+    margin: 30px;
+    animation-name: box;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes box{
+    10%{
+        background-color: yellow;
+    }
+    20%{
+        background-color: green;
+    }
+    30%{
+        background-color: blue;
+    }
+    40%{
+        background-color: blueviolet;
+    }
+    50%{
+        background-color: brown;
+    }
+    60%{
+        background-color: red;
+    }
+    70%{
+        background-color: gray;
+    }
+    80%{
+        background-color: rgb(129, 175, 129);
+    }
+    90%{
+        background-color: rgb(139, 122, 155);
+    }
+    100%{
+        background-color: yellow;
+    }
+}

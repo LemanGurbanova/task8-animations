@@ -1,0 +1,56 @@
+*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.p{
+    width: 150vh;
+    margin: 10px;
+    
+}
+h2{
+    margin: 10px;
+    
+}
+div{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin-top: 200px;
+    display: flex;
+    position: relative;
+    animation-name: hoverbox;
+    animation-duration: 8s;
+    -o-animation-timing-function: linear;
+   
+
+}
+
+@keyframes hoverbox{
+    0%{
+        top:-270px;
+        left:0;
+        background-color: red;
+    }
+    25%{
+        top:-270px;
+        left:200px;
+        background-color: red;
+    }
+    50%{
+        top:0;
+        left:200px;
+        background-color: red;
+    }
+    75%{
+        background-color: red;
+        top:0;
+        left:0;
+    }
+    100%{
+        top:0;
+        left:0;
+        background-color: red;
+    }
+}
+   

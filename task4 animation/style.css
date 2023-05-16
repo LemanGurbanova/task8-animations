@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    position: relative;
+    width: 400px;
+    height: 400px;  
+}
+.hi{
+    display: flex;
+    position: absolute;
+    padding-top: 190px;
+}
+.container2{
+    height: 200px;
+    width: 200px;
+   position: relative;
+}
+.container1{
+    width: 400px;
+    height: 200px;
+    position: relative;  
+}
+.container1 > .red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: flex;
+   
+}
+.container1>.blue{
+    background-color:blue;
+    width: 200px;
+    height: 200px;
+    display: flex;
+   
+}
+.container2> .yellow{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+.container2> .green{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+}
+.container:hover> .container1>.red{
+   
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transition-duration: 1s;
+    transform-origin: top left;
+}
+.container:hover>.container1> .blue{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transition-duration: 1s;
+    transform-origin: bottom left;
+}
+.container:hover> .container2>.yellow{
+    
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transition-duration: 1s;
+    transform-origin: top right;
+}
+.container:hover> .container2>.green{
+    
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transition-duration: 1s;
+    transform-origin: bottom right;
+}
+
+
+

@@ -1,0 +1,50 @@
+.container{
+    background-color: rgb(201, 196, 196);
+    width: 100vh;
+    height: 90vh;
+    margin: auto;
+    padding: 30px;
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid;
+    animation-name: object;  
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: relative;
+}
+@keyframes object{
+    0%{
+       top: 0px;
+       left: 0px;
+        background-color: blue;
+    }
+    25%{
+        top: 0px;
+        left:600px;
+        background-color: red;
+    }
+    50%{
+        top: 550px;
+        left: 600px;
+        background-color: green;
+    }
+    75%{
+        top: 550px;
+        left:0px;
+        background-color: orange;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+        background-color: blue;
+    }
+}
